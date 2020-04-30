@@ -339,12 +339,24 @@
                 
               
 
-              <time title="Created: 2020-04-29 11:51:26 / Modified: 16:48:51" itemprop="dateCreated datePublished" datetime="2020-04-29T11:51:26-07:00">2020-04-29</time>
+              <time title="Created: 2020-04-29 11:51:26" itemprop="dateCreated datePublished" datetime="2020-04-29T11:51:26-07:00">2020-04-29</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2020-04-30 10:18:31" itemprop="dateModified" datetime="2020-04-30T10:18:31-07:00">2020-04-30</time>
               
             
           </span>
@@ -396,7 +408,7 @@
 </li>
 </ol>
 <p>说说这个没回答好的问题，这个问题的其实比较tricky，理论上这类算法无法保证找到的解是全局最优解，只能说是最优解。但是，对于一个工程问题，理论上不一定存在全局最优解，或者存在最优解，但是不一定找得到。那么stochastic global optimization algorithm 找到的算全局最优解吗？</p>
-<p><code>答案是**算**！ 这类算法通过搜索整个design space，几乎是遍历的所有可能的解，找到的解当然是最优的（基于统计学）。这也引入了这类算法的普遍缺点，比较耗时（computational intensive）。 为了解决这个比较耗时的问题，我们引入的surrogate model 来加快这个过称。</code></p>
+<p><code>答案是&quot;算&quot;！ 这类算法通过搜索整个design space，几乎是遍历的所有可能的解，找到的解当然是最优的（基于统计学）。这也引入了这类算法的普遍缺点，比较耗时（computational intensive）。 为了解决这个比较耗时的问题，我们引入的surrogate model 来加快这个过程。</code></p>
 <p>这个也说明了自己存在的一些问题，特别是自己思维上的问题。我一直都知道这类<strong><em>全局最优算法</em></strong>找不到正真的<strong><em>全局</em></strong>最优解，但是却一直没有提出这个问题：</p>
 <p><code>为什么这类全局最优算法明明不能找到真正的全局最优解，但是却被称为global optimization？</code></p>
 <p><strong>思维定势啊！！</strong> 以后要多思考，不要陷入这类陷阱。多问为什么！</p>
